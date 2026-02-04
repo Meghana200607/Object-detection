@@ -1,9 +1,9 @@
-## 🧠 Object Detection using YOLOv5 (Person Detection)
+## 🧠 Object Detection using YOLOv5 (Object Detection)
 
 ## 📌 Project Overview
 
-This project implements real-time object detection using the YOLOv5 (You Only Look Once) deep learning model.
-The primary focus of this project is person detection, but since YOLOv5 is a general object detection model, it is also capable of detecting other objects such as buses, umbrellas, etc.
+This project implements real-time object detection using the YOLOv5 (You Only Look Once) deep learning model.It is trained on coco dataset.
+ YOLOv5 is a general object detection model, it is also capable of detecting other objects such as buses, umbrellas, etc.
 
 The model identifies objects in images and draws bounding boxes with class labels and confidence scores.
 
@@ -79,7 +79,7 @@ Note: The colored bounding boxes and confidence scores shown in the output are e
 
 ## ⚠️ Important Note
 
-Although this project is referred to as Person Detection, it is technically an Object Detection Project, since YOLOv5 detects multiple object classes by default.
+It is technically an Object Detection Project, since YOLOv5 detects multiple object classes by default.
 Person detection is achieved by focusing on the person class from the detected outputs.
 
 ## ✅ Results
